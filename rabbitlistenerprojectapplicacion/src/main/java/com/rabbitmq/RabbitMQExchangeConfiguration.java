@@ -27,7 +27,7 @@ public class RabbitMQExchangeConfiguration {
 
     @Bean
     Exchange newExchange(){
-        return ExchangeBuilder.topicExchange("TopicExchangeTEst")
+        return ExchangeBuilder.topicExchange("TopicExchangeTest")
                 .autoDelete()
                 .durable(true)
                 .internal()
